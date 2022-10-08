@@ -8,9 +8,9 @@ if (a < 100)
 {
     Console.Write("Нет третьей цифры");
 }
-else if (a > 100)
+else if (a > 99)
 {
-    while (a > 1000)
+    while (a > 999)
     {
         a = a/10;
     }
